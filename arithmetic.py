@@ -9,18 +9,26 @@ def add(num1, num2):
 
 def subtract(num1, num2):
     """Return the value of num1 minus num2."""
+    subtracted = num1 - num2
+    return subtracted
 
 
 def multiply(num1, num2):
     """Multiply the num1 by num2 and return the result."""
+    multiplied = num1 * num2
+    return multiplied
 
 
 def divide(num1, num2):
     """Divide the num1 by num2, returning a floating point."""
+    divided = num1/num2
+    return divided
 
 
 def square(num1):
     """Return the square of num1."""
+    squared = num1**2
+    return squared
 
 
 def cube(num1):
